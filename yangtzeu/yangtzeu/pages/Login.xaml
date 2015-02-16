@@ -11,6 +11,7 @@
             <StackPanel MinWidth="200">
                 <TextBlock Text="BASIC PAGE" Style="{StaticResource Heading2}" />
                 <TextBlock Text="Content goes here" />
+                <mui:BBCodeBlock BBCode="This is a [b]text[/b] [i]sample[/i] with [u]some basic[/u] formatting." />
                 <Button Width="60" Click="Button_Click">按钮</Button>
             </StackPanel>
         </ScrollViewer>
